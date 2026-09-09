@@ -1,45 +1,49 @@
 # Brasa 77 — Smash & Fire
 
-Site comercial demonstrativo para hamburgueria, com direção visual escura e cinematográfica, fotografia gastronômica e experiência de pedido pensada para conversão.
+Experiência web comercial para hamburgueria, com direção visual cinematográfica, fotografia gastronômica e fluxo de pedido focado em conversão.
 
-## Projeto online
+**Demo:** https://brasa-rouge.vercel.app
 
-https://brasa-rouge.vercel.app
+## Sobre o projeto
 
-## Destaques
+O Brasa 77 foi criado como demonstração de uma presença digital premium para negócios de alimentação. A proposta combina identidade forte, navegação editorial e recursos práticos de pedido.
+
+## Principais recursos
 
 - Hero em vídeo com atmosfera de fogo e brasa
 - Cardápio interativo por categorias
-- Produtos com fotografia gastronômica real
+- Produtos com fotografia gastronômica
 - Carrinho com quantidade, remoção e total
-- Fluxo preparado para pedido pelo WhatsApp
+- Fluxo preparado para finalização pelo WhatsApp
 - Localização com acesso ao Google Maps
-- Navegação responsiva para desktop e mobile
+- Layout responsivo para desktop e mobile
 - Animações com suporte a `prefers-reduced-motion`
 - SEO básico, Open Graph e favicon próprio
-- Estrutura simples para trocar dados do cliente e cardápio
+- Dados do negócio e cardápio separados para facilitar adaptação
+
+## Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
 
 ## Estrutura
 
 - `index.html` — página principal
 - `styles.css` — identidade visual e responsividade
-- `app.js` — interações, carrinho e comportamento da interface
+- `app.js` — interações, carrinho e interface
 - `menu-data.js` — produtos, preços e categorias
 - `site-config.js` — dados do negócio e integrações
-- `favicon.svg` — ícone da marca
+- `favicon.svg` — identidade da marca
 
-## Personalização
+## Executar localmente
 
-Os principais dados do estabelecimento ficam centralizados em `site-config.js`. O cardápio fica em `menu-data.js`, facilitando a adaptação para outro cliente sem espalhar informações pelo código.
+Como é um projeto estático, basta abrir `index.html` ou servir a pasta com um servidor local.
 
-## Tecnologias
+## Observação
 
-HTML5, CSS3 e JavaScript.
+Projeto demonstrativo de portfólio. Endereço, horários, contatos, preços e demais informações devem ser substituídos pelos dados oficiais antes de uma publicação comercial real.
 
-## Publicação
+## Autor
 
-Projeto estático, compatível com Vercel, Netlify e GitHub Pages sem etapa de build.
-
-## Portfólio
-
-Projeto desenvolvido por Yagho Rosa como demonstração de uma experiência digital premium para negócios de alimentação.
+Desenvolvido por Yagho Rosa — Desenvolvedor Web.
