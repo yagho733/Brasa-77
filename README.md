@@ -1,25 +1,25 @@
-# Brasa 77 — Smash & Fire
+﻿# Brasa 77 â€” Smash & Fire
 
-Experiência web comercial para hamburgueria, com direção visual cinematográfica, fotografia gastronômica e fluxo de pedido focado em conversão.
+ExperiÃªncia web comercial para hamburgueria, com direÃ§Ã£o visual cinematogrÃ¡fica, fotografia gastronÃ´mica e fluxo de pedido focado em conversÃ£o.
 
-**Demo:** https://brasa-rouge.vercel.app
+**Demo:** https://yagho733.github.io/Brasa-77/
 
 ## Sobre o projeto
 
-O Brasa 77 foi criado como demonstração de uma presença digital premium para negócios de alimentação. A proposta combina identidade forte, navegação editorial e recursos práticos de pedido.
+O Brasa 77 foi criado como demonstraÃ§Ã£o de uma presenÃ§a digital premium para negÃ³cios de alimentaÃ§Ã£o. A proposta combina identidade forte, navegaÃ§Ã£o editorial e recursos prÃ¡ticos de pedido.
 
 ## Principais recursos
 
-- Hero em vídeo com atmosfera de fogo e brasa
-- Cardápio interativo por categorias
-- Produtos com fotografia gastronômica
-- Carrinho com quantidade, remoção e total
-- Fluxo preparado para finalização pelo WhatsApp
-- Localização com acesso ao Google Maps
+- Hero em vÃ­deo com atmosfera de fogo e brasa
+- CardÃ¡pio interativo por categorias
+- Produtos com fotografia gastronÃ´mica
+- Carrinho com quantidade, remoÃ§Ã£o e total
+- Fluxo preparado para finalizaÃ§Ã£o pelo WhatsApp
+- LocalizaÃ§Ã£o com acesso ao Google Maps
 - Layout responsivo para desktop e mobile
-- Animações com suporte a `prefers-reduced-motion`
-- SEO básico, Open Graph e favicon próprio
-- Dados do negócio e cardápio separados para facilitar adaptação
+- AnimaÃ§Ãµes com suporte a `prefers-reduced-motion`
+- SEO bÃ¡sico, Open Graph e favicon prÃ³prio
+- Dados do negÃ³cio e cardÃ¡pio separados para facilitar adaptaÃ§Ã£o
 
 ## Tecnologias
 
@@ -29,21 +29,22 @@ O Brasa 77 foi criado como demonstração de uma presença digital premium para 
 
 ## Estrutura
 
-- `index.html` — página principal
-- `styles.css` — identidade visual e responsividade
-- `app.js` — interações, carrinho e interface
-- `menu-data.js` — produtos, preços e categorias
-- `site-config.js` — dados do negócio e integrações
-- `favicon.svg` — identidade da marca
+- `index.html` â€” pÃ¡gina principal
+- `styles.css` â€” identidade visual e responsividade
+- `app.js` â€” interaÃ§Ãµes, carrinho e interface
+- `menu-data.js` â€” produtos, preÃ§os e categorias
+- `site-config.js` â€” dados do negÃ³cio e integraÃ§Ãµes
+- `favicon.svg` â€” identidade da marca
 
 ## Executar localmente
 
-Como é um projeto estático, basta abrir `index.html` ou servir a pasta com um servidor local.
+Como Ã© um projeto estÃ¡tico, basta abrir `index.html` ou servir a pasta com um servidor local.
 
-## Observação
+## ObservaÃ§Ã£o
 
-Projeto demonstrativo de portfólio. Endereço, horários, contatos, preços e demais informações devem ser substituídos pelos dados oficiais antes de uma publicação comercial real.
+Projeto demonstrativo de portfÃ³lio. EndereÃ§o, horÃ¡rios, contatos, preÃ§os e demais informaÃ§Ãµes devem ser substituÃ­dos pelos dados oficiais antes de uma publicaÃ§Ã£o comercial real.
 
 ## Autor
 
-Desenvolvido por Yagho Rosa — Desenvolvedor Web.
+Desenvolvido por Yagho Rosa â€” Desenvolvedor Web.
+
