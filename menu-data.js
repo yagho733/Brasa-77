@@ -1,13 +1,13 @@
 window.BRASA_MEDIA = Object.freeze({
-  brasaOriginal: 'https://images.pexels.com/photos/21820165/pexels-photo-21820165.jpeg?auto=compress&cs=tinysrgb&w=1600',
-  baconFire: 'https://images.pexels.com/photos/19247571/pexels-photo-19247571.jpeg?auto=compress&cs=tinysrgb&w=1600',
-  brasaOnion: 'https://images.pexels.com/photos/18713429/pexels-photo-18713429.jpeg?auto=compress&cs=tinysrgb&w=1600',
-  onionCrunch: 'https://images.pexels.com/photos/18713425/pexels-photo-18713425.jpeg?auto=compress&cs=tinysrgb&w=1600',
-  combo: 'https://images.pexels.com/photos/18713431/pexels-photo-18713431.jpeg?auto=compress&cs=tinysrgb&w=1600',
-  fries: 'https://images.pexels.com/photos/5836999/pexels-photo-5836999.jpeg?auto=compress&cs=tinysrgb&w=1400',
-  onionRings: 'https://images.pexels.com/photos/8880734/pexels-photo-8880734.jpeg?auto=compress&cs=tinysrgb&w=1400',
-  coca: 'https://images.pexels.com/photos/25402111/pexels-photo-25402111.jpeg?auto=compress&cs=tinysrgb&w=1400',
-  water: 'https://images.pexels.com/photos/1540235/pexels-photo-1540235.jpeg?auto=compress&cs=tinysrgb&w=1400'
+  brasaOriginal: './assets/menu/brasa-original.jpg',
+  baconFire: './assets/menu/bacon-fire.jpg',
+  brasaOnion: './assets/menu/brasa-onion.jpg',
+  onionCrunch: './assets/menu/onion-crunch.jpg',
+  combo: './assets/menu/combo77.jpg',
+  fries: './assets/menu/fritas.jpg',
+  onionRings: './assets/menu/onion-rings.jpg',
+  coca: './assets/menu/coca.jpg',
+  water: './assets/menu/agua.jpg'
 });
 
 window.BRASA_MENU = Object.freeze([

@@ -40,7 +40,7 @@ if (productsEl) {
   productsEl.innerHTML = featured.map((item, index) => `
     <article class="product reveal">
       <div class="product-media" data-label="${item.name}">
-        <img src="${item.image}" alt="${item.name}: ${item.description}" loading="lazy" decoding="async" />
+        <img src="${item.image}" alt="${item.name}: ${item.description}" loading="eager" decoding="sync" />
       </div>
       <div class="product-copy">
         <span class="product-index">${String(index + 1).padStart(2, '0')}</span>
