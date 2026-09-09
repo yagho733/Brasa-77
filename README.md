@@ -2,7 +2,7 @@
 
 Site-conceito premium para hamburgueria, com direção visual cinematográfica, cardápio interativo, carrinho e fluxo de pedido.
 
-**Demo oficial:** https://https-github-com-yagho-barbearia-du.vercel.app/
+**Demo oficial:** https://brasa-77.vercel.app/
 
 ## Principais recursos
 
