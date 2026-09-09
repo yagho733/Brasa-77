@@ -4,14 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#080604" />
-  <meta name="description" content="Brasa 77 — smash burger, fogo de verdade e uma experiência feita para abrir o apetite." />
+  <meta name="description" content="Brasa 77 — smash burger com crosta na chapa, queijo derretido e pedido direto." />
   <meta property="og:title" content="Brasa 77 | Smash & Fire" />
-  <meta property="og:description" content="Smash na chapa, queijo derretido e fogo de verdade." />
+  <meta property="og:description" content="Smash na chapa, crosta marcada, queijo derretido e pedido direto." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://images.pexels.com/photos/21820165/pexels-photo-21820165.jpeg?auto=compress&cs=tinysrgb&w=1200" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Brasa 77 | Smash & Fire" />
-  <meta name="twitter:description" content="Smash na chapa, queijo derretido e fogo de verdade." />
+  <meta name="twitter:description" content="Smash na chapa, crosta marcada, queijo derretido e pedido direto." />
   <meta name="twitter:image" content="https://images.pexels.com/photos/21820165/pexels-photo-21820165.jpeg?auto=compress&cs=tinysrgb&w=1200" />
   <title>Brasa 77 | Smash & Fire</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
@@ -21,6 +21,7 @@
   <link rel="preconnect" href="https://videos.pexels.com">
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;0,900;1,800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./polish.css" />
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -70,20 +71,21 @@
       <div class="ember-layer" id="heroEmbers" aria-hidden="true"></div>
 
       <div class="hero-content wrap">
-        <div class="hero-kicker reveal">PELOTAS — RS / FOGO ACESO ÀS 18H</div>
+        <div class="hero-kicker reveal">PELOTAS — RS / PEDIDOS A PARTIR DAS 18H</div>
         <h1 class="hero-title reveal">
           <span>SMASH.</span>
-          <span class="outline">FOGO.</span>
-          <span>SEM ATALHO.</span>
+          <span class="outline">CROSTA.</span>
+          <span>QUEIJO.</span>
         </h1>
         <div class="hero-bottom reveal">
-          <p>Carne prensada na chapa, crosta de verdade e queijo derretendo no ponto certo.</p>
+          <p>Dois discos na chapa, queijo derretido e montagem feita na hora.</p>
           <div class="hero-ctas">
             <a href="#cardapio" class="btn btn-fire">VER CARDÁPIO</a>
             <a href="#brasa" class="btn btn-ghost">VER A BRASA</a>
           </div>
         </div>
       </div>
+      <div class="scroll-cue" aria-hidden="true"><span></span> ROLE PARA SENTIR O FOGO</div>
     </section>
 
     <div class="ticker" aria-hidden="true"><div class="ticker-track">
@@ -95,11 +97,11 @@
       <div class="wrap manifesto-grid">
         <div class="section-number reveal">01 / A BRASA</div>
         <div class="manifesto-copy reveal">
-          <p class="eyebrow">NÃO É EFEITO. É CALOR.</p>
-          <h2>O SABOR COMEÇA <em>ANTES</em> DA PRIMEIRA MORDIDA.</h2>
+          <p class="eyebrow">CHAPA QUENTE. MONTAGEM NA HORA.</p>
+          <h2>CROSTA POR FORA. <em>SUCULÊNCIA</em> POR DENTRO.</h2>
         </div>
         <div class="manifesto-note reveal">
-          <p>Chapa quente, carne prensada só uma vez e queijo entrando no segundo certo. O resto é fumaça, barulho e vontade.</p>
+          <p>Carne prensada uma vez, queijo entrando logo depois e montagem feita antes de sair.</p>
           <span>BRASA 77 / SMASH & FIRE</span>
         </div>
       </div>
@@ -130,12 +132,9 @@
       <div class="products wrap" id="products"></div>
     </section>
 
-    <section class="charcoal-break" aria-label="Carne e fogo na grelha">
-      <video class="managed-video" autoplay muted loop playsinline preload="none" poster="https://images.pexels.com/photos/18713426/pexels-photo-18713426.jpeg?auto=compress&cs=tinysrgb&w=1600">
-        <source src="https://videos.pexels.com/video-files/27730864/12213672_1080_1920_30fps.mp4" type="video/mp4">
-      </video>
+    <section class="charcoal-break" aria-label="Detalhe de burger e acompanhamento">
+      <img class="charcoal-image" src="https://images.pexels.com/photos/18713427/pexels-photo-18713427.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Burger com acompanhamento em fundo escuro" loading="lazy" decoding="async" />
       <div class="charcoal-overlay"></div>
-      <div class="charcoal-copy wrap reveal"><span>FOGO DE VERDADE</span><h2>SEM<br>ATALHO.</h2></div>
     </section>
 
     <section class="menu-section section" id="cardapio">
@@ -152,7 +151,7 @@
           <div class="menu-list" id="menuList"></div>
         </div>
         <aside class="menu-preview reveal" aria-live="polite">
-          <div class="menu-preview-frame"><img id="menuPreviewImage" src="./assets/menu/brasa-original.jpg" alt="Brasa Original" /></div>
+          <div class="menu-preview-frame"><img id="menuPreviewImage" src="https://images.pexels.com/photos/21820165/pexels-photo-21820165.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Brasa Original" /></div>
           <div class="menu-preview-meta"><span id="menuPreviewIndex">01</span><strong id="menuPreviewName">BRASA ORIGINAL</strong></div>
         </aside>
       </div>
@@ -160,7 +159,7 @@
 
     <section class="combo section">
       <div class="wrap combo-grid">
-        <div class="combo-image reveal"><img src="./assets/menu/combo77.jpg" alt="Cheeseburger com fritas e refrigerante em fundo escuro" loading="eager" /></div>
+        <div class="combo-image reveal"><img src="https://images.pexels.com/photos/18713431/pexels-photo-18713431.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Cheeseburger com fritas e refrigerante em fundo escuro" loading="lazy" /></div>
         <div class="combo-copy reveal">
           <span class="section-number">04 / COMBO 77</span>
           <p class="eyebrow">BURGER + FRITAS + REFRI</p>
@@ -185,7 +184,7 @@
 
     <section class="location section" id="local">
       <div class="wrap location-grid">
-        <div class="location-title reveal"><span class="section-number">06 / ONDE A BRASA ACONTECE</span><h2>PELOTAS.<br>NOITE.<br><em>FOGO.</em></h2></div>
+        <div class="location-title reveal"><span class="section-number">06 / ONDE A BRASA ACONTECE</span><h2>PELOTAS.<br>NOITE.<br><em>SMASH.</em></h2></div>
         <div class="location-info reveal">
           <div><small>REGIÃO</small><strong data-site="address">Centro, Pelotas — RS</strong></div>
           <div><small>TER — QUI</small><strong data-site="hours-week">18H — 23H</strong></div>
@@ -196,15 +195,10 @@
       </div>
     </section>
 
-    <section class="final-fire" id="pedido-final">
-      <img class="final-burger" src="./assets/final-burger.jpg" alt="Smash burger da Brasa 77 em fotografia gastronômica" />
+    <section class="final-fire" aria-label="Chamada para o cardápio">
+      <img class="final-image" src="https://images.pexels.com/photos/19247571/pexels-photo-19247571.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Burger com bacon e queijo em fundo escuro" loading="lazy" decoding="async" />
       <div class="final-fire-overlay"></div>
-      <div class="wrap final-copy">
-        <span>O FOGO CONTINUA ACESO</span>
-        <h2>AINDA<br>COM FOME?</h2>
-        <p>Escolhe teu smash, confere o carrinho e fecha o pedido sem enrolação.</p>
-        <a href="#cardapio" class="btn btn-fire">FAZER PEDIDO</a>
-      </div>
+      <div class="wrap final-copy reveal"><span>CARDÁPIO COMPLETO</span><h2>BATEU<br>A FOME?</h2><a href="#cardapio" class="btn btn-fire">ESCOLHER BURGER</a></div>
     </section>
   </main>
 
@@ -219,13 +213,13 @@
 
   <div class="cart-backdrop" id="cartBackdrop"></div>
   <aside class="cart-drawer" id="cartDrawer" aria-hidden="true" aria-label="Carrinho">
-    <div class="cart-head"><button class="cart-back" id="cartBack" type="button" aria-label="Voltar ao cardápio">← VOLTAR</button><div><small>SEU PEDIDO</small><h2>CARRINHO</h2></div><button id="cartClose" aria-label="Fechar carrinho">×</button></div>
+    <div class="cart-head"><div><small>SEU PEDIDO</small><h2>CARRINHO</h2></div><button class="cart-back" id="cartClose" aria-label="Voltar ao site">VOLTAR</button></div>
     <div class="cart-items" id="cartItems"></div>
     <div class="cart-empty show" id="cartEmpty"><span>77</span><p>Teu carrinho ainda está frio.</p><a href="#cardapio" id="cartGoMenu">ESCOLHER BURGER</a></div>
     <div class="cart-footer" id="cartFooter">
       <div class="cart-total"><span>TOTAL</span><strong id="cartTotal">R$ 0,00</strong></div>
       <button class="checkout" id="checkout">FINALIZAR PELO WHATSAPP</button>
-      <small id="checkoutHint">Checkout demonstrativo — nenhum pedido é enviado.</small>
+      <small id="checkoutHint">Na versão comercial, o pedido abre no WhatsApp da hamburgueria já preenchido.</small>
     </div>
   </aside>
 

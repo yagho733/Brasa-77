@@ -1,0 +1,121 @@
+/* Visual cleanup after live QA */
+.product-media{
+  border:0 !important;
+  outline:0 !important;
+  box-shadow:none !important;
+  background:transparent !important;
+}
+.product-media:before{
+  opacity:.78;
+}
+.product-media img{
+  padding:0 !important;
+  border:0 !important;
+  outline:0 !important;
+  box-shadow:none !important;
+}
+.menu-preview-frame,
+.combo-image{
+  border:0 !important;
+  outline:0 !important;
+  box-shadow:none !important;
+}
+.combo-image{
+  background:transparent !important;
+}
+.combo-image img{
+  padding:0 !important;
+  border:0 !important;
+  outline:0 !important;
+  box-shadow:none !important;
+}
+
+/* Cinematic separator: show the complete photograph, never crop the food. */
+.charcoal-break{
+  height:auto !important;
+  min-height:0 !important;
+  aspect-ratio:3 / 2;
+  background:#050403;
+}
+.charcoal-image{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:contain !important;
+  object-position:center center;
+  filter:contrast(1.06) saturate(.92) brightness(.78);
+  transform:none !important;
+  background:#050403;
+}
+.charcoal-overlay{
+  background:
+    linear-gradient(180deg,rgba(5,4,3,.16),rgba(5,4,3,.02) 45%,rgba(5,4,3,.34)),
+    linear-gradient(90deg,rgba(5,4,3,.2),transparent 58%,rgba(5,4,3,.1));
+  pointer-events:none;
+}
+.charcoal-copy{display:none !important;}
+
+/* Final CTA is deliberately different from the hero: static food photography, no repeated footage. */
+.final-fire{
+  height:88svh;
+  min-height:650px;
+}
+.final-image{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:64% center;
+  filter:contrast(1.08) saturate(.92) brightness(.68);
+  transform:scale(1.01);
+}
+.final-fire-overlay{
+  background:
+    linear-gradient(90deg,rgba(7,5,3,.94) 0%,rgba(7,5,3,.74) 40%,rgba(7,5,3,.14) 76%,rgba(7,5,3,.26) 100%),
+    linear-gradient(0deg,rgba(7,5,3,.8),transparent 56%);
+}
+
+/* Cleaner copy hierarchy: no floating proof text over the hero. */
+.hero-proof{display:none !important;}
+
+/* Cart navigation: clearer than an isolated close icon, especially on mobile. */
+.cart-head .cart-back{
+  min-width:76px;
+  height:40px;
+  padding:0 14px;
+  border:1px solid rgba(255,255,255,.16) !important;
+  background:rgba(255,255,255,.035) !important;
+  color:#f4ece3 !important;
+  font:800 9px/1 Inter,sans-serif !important;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  cursor:pointer;
+  transition:background .2s ease,border-color .2s ease,color .2s ease;
+}
+.cart-head .cart-back:hover{
+  background:rgba(255,255,255,.08) !important;
+  border-color:rgba(255,255,255,.3) !important;
+  color:#fff !important;
+}
+
+@media(max-width:760px){
+  .product-media img{padding:0 !important;}
+  .charcoal-break{
+    height:auto !important;
+    min-height:0 !important;
+    aspect-ratio:3 / 2;
+  }
+  .charcoal-image{
+    object-fit:contain !important;
+    object-position:center center;
+  }
+  .final-image{object-position:68% center;}
+  .final-fire{height:78svh;min-height:620px;}
+  .cart-head .cart-back{
+    min-width:72px;
+    height:38px;
+    padding:0 12px;
+  }
+}

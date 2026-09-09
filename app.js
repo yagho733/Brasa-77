@@ -40,7 +40,7 @@ if (productsEl) {
   productsEl.innerHTML = featured.map((item, index) => `
     <article class="product reveal">
       <div class="product-media" data-label="${item.name}">
-        <img src="${item.image}" alt="${item.name}: ${item.description}" loading="eager" decoding="sync" />
+        <img src="${item.image}" alt="${item.name}: ${item.description}" loading="lazy" decoding="async" />
       </div>
       <div class="product-copy">
         <span class="product-index">${String(index + 1).padStart(2, '0')}</span>
@@ -177,10 +177,6 @@ function closeCart() {
 $('#cartOpen')?.addEventListener('click', openCart);
 $('#mobileCartOpen')?.addEventListener('click', openCart);
 $('#cartClose')?.addEventListener('click', closeCart);
-$('#cartBack')?.addEventListener('click', () => {
-  closeCart();
-  window.setTimeout(() => $('#cardapio')?.scrollIntoView({ behavior: isReducedMotion ? 'auto' : 'smooth' }), 80);
-});
 $('#cartGoMenu')?.addEventListener('click', closeCart);
 backdrop?.addEventListener('click', closeCart);
 
