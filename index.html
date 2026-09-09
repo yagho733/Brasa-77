@@ -84,8 +84,6 @@
           </div>
         </div>
       </div>
-      <div class="hero-proof" aria-hidden="true"><span>01</span><p>CARNE REAL<br>FOGO REAL</p></div>
-      <div class="scroll-cue" aria-hidden="true"><span></span> ROLE PARA SENTIR O FOGO</div>
     </section>
 
     <div class="ticker" aria-hidden="true"><div class="ticker-track">
@@ -198,13 +196,15 @@
       </div>
     </section>
 
-    <section class="final-fire">
-      <video class="managed-video" autoplay muted loop playsinline preload="none">
-        <source src="https://videos.pexels.com/video-files/31176159/13318024_1080_1920_30fps.mp4" type="video/mp4">
-      </video>
-      <video class="final-smoke managed-video optional-motion" autoplay muted loop playsinline preload="none" aria-hidden="true"><source src="https://videos.pexels.com/video-files/3996046/3996046-hd_1280_720_25fps.mp4" type="video/mp4"></video>
+    <section class="final-fire" id="pedido-final">
+      <img class="final-burger" src="./assets/final-burger.jpg" alt="Smash burger da Brasa 77 em fotografia gastronômica" />
       <div class="final-fire-overlay"></div>
-      <div class="wrap final-copy reveal"><span>ÚLTIMA PERGUNTA</span><h2>AINDA<br>COM FOME?</h2><a href="#cardapio" class="btn btn-fire">FAZER PEDIDO</a></div>
+      <div class="wrap final-copy">
+        <span>O FOGO CONTINUA ACESO</span>
+        <h2>AINDA<br>COM FOME?</h2>
+        <p>Escolhe teu smash, confere o carrinho e fecha o pedido sem enrolação.</p>
+        <a href="#cardapio" class="btn btn-fire">FAZER PEDIDO</a>
+      </div>
     </section>
   </main>
 
@@ -219,13 +219,13 @@
 
   <div class="cart-backdrop" id="cartBackdrop"></div>
   <aside class="cart-drawer" id="cartDrawer" aria-hidden="true" aria-label="Carrinho">
-    <div class="cart-head"><div><small>SEU PEDIDO</small><h2>CARRINHO</h2></div><button id="cartClose" aria-label="Fechar carrinho">×</button></div>
+    <div class="cart-head"><button class="cart-back" id="cartBack" type="button" aria-label="Voltar ao cardápio">← VOLTAR</button><div><small>SEU PEDIDO</small><h2>CARRINHO</h2></div><button id="cartClose" aria-label="Fechar carrinho">×</button></div>
     <div class="cart-items" id="cartItems"></div>
     <div class="cart-empty show" id="cartEmpty"><span>77</span><p>Teu carrinho ainda está frio.</p><a href="#cardapio" id="cartGoMenu">ESCOLHER BURGER</a></div>
     <div class="cart-footer" id="cartFooter">
       <div class="cart-total"><span>TOTAL</span><strong id="cartTotal">R$ 0,00</strong></div>
       <button class="checkout" id="checkout">FINALIZAR PELO WHATSAPP</button>
-      <small id="checkoutHint">Na versão comercial, o pedido abre no WhatsApp da hamburgueria já preenchido.</small>
+      <small id="checkoutHint">Checkout demonstrativo — nenhum pedido é enviado.</small>
     </div>
   </aside>
 

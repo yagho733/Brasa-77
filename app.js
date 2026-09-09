@@ -177,6 +177,10 @@ function closeCart() {
 $('#cartOpen')?.addEventListener('click', openCart);
 $('#mobileCartOpen')?.addEventListener('click', openCart);
 $('#cartClose')?.addEventListener('click', closeCart);
+$('#cartBack')?.addEventListener('click', () => {
+  closeCart();
+  window.setTimeout(() => $('#cardapio')?.scrollIntoView({ behavior: isReducedMotion ? 'auto' : 'smooth' }), 80);
+});
 $('#cartGoMenu')?.addEventListener('click', closeCart);
 backdrop?.addEventListener('click', closeCart);
 
