@@ -118,4 +118,26 @@
     height:38px;
     padding:0 12px;
   }
+
+  /* Mobile typography fix: keep the manifesto headline readable without squeezed/cropped words. */
+  .manifesto-copy h2{
+    font-size:clamp(46px,12.4vw,54px) !important;
+    line-height:.96 !important;
+    letter-spacing:-.012em !important;
+    max-width:100%;
+    word-break:normal;
+    overflow-wrap:normal;
+    hyphens:none;
+  }
+  .manifesto-copy h2 em{
+    display:inline;
+  }
+}
+
+@media(max-width:390px){
+  .manifesto-copy h2{
+    font-size:clamp(42px,12.8vw,49px) !important;
+    line-height:.98 !important;
+    letter-spacing:-.008em !important;
+  }
 }
